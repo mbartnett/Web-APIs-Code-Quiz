@@ -1,42 +1,52 @@
+/* Font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arimo:wght@700&family=Montserrat:wght@300;400;500;600&family=Raleway:wght@300;400;500&display=swap');
+
+/* Primary styles */
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-weight:400;
   background-color: salmon;
   color:black;
 }
 
-h1, h2, h3 {
-	font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+h1 {
+	font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
+  font-size:42px;
   margin:10px;
+  color:darkslateblue;
+  text-align:center;
 }
 
-p {
+p.intro {
   margin:10px 10%;
   width: 50%;
+  text-align:center;
 }
 
 a {
   text-decoration:none;
-  color:black;
+}
+
+a:visited {
+  color:darkslateblue;
+  text-decoration: none;
 }
 
 a:hover {
   color:white;
   text-decoration:underline;
 }
+/* Container styles */
 
-button {
-  font-size: 18px;
-  margin-top:20px;
-  padding: 15px 25px;
-  color:black;
-  background-color: salmon;
-  border:none;
-  border-radius: 10px;
-}
-
-button:hover {
-  color:white;
-  text-decoration:underline;
+.small {
+  font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
+  font-size:18px;
+  margin:10px;
+  color:darkslateblue;
+  text-align:center;
+  font-weight:900;
 }
 
 .container {
@@ -48,14 +58,14 @@ button:hover {
 	height:100vh;
 }
 
-.container div {
+.container section {
     display:flex;
 	  justify-content: center;
     align-items: center;
     align-content: center;
 }
 
-.item-0 {
+.flex-item-0 {
 	flex-grow: 0;
 	flex-shrink: 0;
 	flex-basis: 44%;
@@ -63,7 +73,7 @@ button:hover {
 	height:75px;
 }
 
-.item-1 {
+.flex-item-1 {
 	flex-grow: 0;
 	flex-shrink: 0;
 	flex-basis: 44%;
@@ -71,7 +81,7 @@ button:hover {
   margin-left:5px;
 }
 
-.item-2 {
+.flex-item-2 {
 	flex-direction: column;
   flex-grow: 0;
   flex-shrink: 0;
@@ -80,9 +90,12 @@ button:hover {
 	flex-basis: 90%;
 	height:65%;
   margin:10px;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
 }
 
-.item-3 {
+.flex-item-3 {
 	flex-direction: column;
   flex-grow: 0;
   flex-shrink: 0;
@@ -91,4 +104,29 @@ button:hover {
 	flex-basis: 90%;
 	height:40%;
   margin:10px;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
+
+/* Button styles */
+
+.start-button {
+  font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top:20px;
+  padding: 15px 25px;
+  color:black;
+  background-color: salmon;
+  border:none;
+  border-radius: 10px;
+  color:darkslateblue;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
+
+.start-button:hover {
+  color:white;
+  text-decoration:underline;
 }
