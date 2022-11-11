@@ -54,6 +54,10 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
+a:link, a:visited {
+  text-decoration: none;
+}
+
 /* make images easier to work with */
 
 img {

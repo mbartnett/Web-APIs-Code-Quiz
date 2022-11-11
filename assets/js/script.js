@@ -1,3 +1,7 @@
+// General functions 
+
+var startButton = document.querySelector(".start-button");
+
 // An array of objects containing the number of the quesiton, the quesiton, the possible solutions and the answers.
 
 let questions = [

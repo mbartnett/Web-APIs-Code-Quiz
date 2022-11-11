@@ -25,13 +25,9 @@ p.intro {
   text-align:center;
 }
 
-a {
-  text-decoration:none;
-}
-
-a:visited {
+a:any-linka a:link, a:visited {
   color:darkslateblue;
-  text-decoration: none;
+  text-decoration:none;
 }
 
 a:hover {
