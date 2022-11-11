@@ -35,18 +35,6 @@ p.intro {
   line-height:24px;
 }
 
-.scores p {
-  display:inline-block;
-  font-size:16px;
-  line-height:20px;
-  margin:5px;
-  padding:5px 10px;
-  /*background-color:salmon;
-  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
-  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);*/
-}
-
 a {
   color:darkslateblue;
   text-decoration:none;
@@ -126,12 +114,26 @@ a {
   -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
 }
 
+/* Score styles */
+
 .scores {
   flex-direction:column;
   flex-wrap:wrap;
-  width:25%;
+  width:75%;
   padding:5px;
   justify-content: flex-start;
+}
+
+.scores p {
+  display:inline-block;
+  font-size:16px;
+  line-height:20px;
+  margin:5px;
+  padding:5px 10px;
+  /*background-color:salmon;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);*/
 }
 
 /* Button styles */
