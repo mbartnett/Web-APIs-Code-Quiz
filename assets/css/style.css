@@ -27,7 +27,7 @@ a:hover {
 button {
   font-size: 18px;
   margin-top:20px;
-  padding: 15px;
+  padding: 15px 25px;
   color:black;
   background-color: salmon;
   border:none;
@@ -79,5 +79,16 @@ button:hover {
   background-color:lightskyblue;
 	flex-basis: 90%;
 	height:65%;
+  margin:10px;
+}
+
+.item-3 {
+	flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border-radius:20px;
+  background-color:lightskyblue;
+	flex-basis: 90%;
+	height:40%;
   margin:10px;
 }
