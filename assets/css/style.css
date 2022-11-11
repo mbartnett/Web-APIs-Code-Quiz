@@ -19,18 +19,40 @@ h1 {
   text-align:center;
 }
 
+h2 {
+	font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
+  font-size:28px;
+  margin:10px;
+  color:darkslateblue;
+  text-align:center;
+}
+
 p.intro {
   margin:10px 10%;
   width: 50%;
   text-align:center;
+  font-size:18px;
+  line-height:24px;
 }
 
-a:any-linka a:link, a:visited {
+.scores p {
+  display:inline-block;
+  font-size:16px;
+  line-height:20px;
+  margin:5px;
+  padding:5px 10px;
+  /*background-color:salmon;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);*/
+}
+
+a {
   color:darkslateblue;
   text-decoration:none;
 }
 
-a:hover {
+.slate a:link, a:hover {
   color:white;
   text-decoration:underline;
 }
@@ -56,6 +78,7 @@ a:hover {
 
 .container section {
     display:flex;
+    flex-wrap:wrap;
 	  justify-content: center;
     align-items: center;
     align-content: center;
@@ -98,11 +121,19 @@ a:hover {
   border-radius:20px;
   background-color:lightskyblue;
 	flex-basis: 90%;
-	height:40%;
+	height:50%;
   margin:10px;
   box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
   -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
+
+.scores {
+  flex-direction:column;
+  flex-wrap:wrap;
+  width:25%;
+  padding:5px;
+  justify-content: flex-start;
 }
 
 /* Button styles */
