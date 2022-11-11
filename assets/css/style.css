@@ -14,7 +14,7 @@ body {
 h1 {
 	font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
   font-size:42px;
-  margin:10px;
+  margin:20px;
   color:darkslateblue;
   text-align:center;
 }
@@ -78,8 +78,7 @@ a {
 
 .container section {
     display:flex;
-    flex-wrap:wrap;
-	  justify-content: center;
+    justify-content: center;
     align-items: center;
     align-content: center;
 }
@@ -107,8 +106,7 @@ a {
   border-radius:20px;
   background-color:lightskyblue;
 	flex-basis: 90%;
-	height:65%;
-  margin:10px;
+	height:600px;
   box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
   -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
@@ -121,7 +119,7 @@ a {
   border-radius:20px;
   background-color:lightskyblue;
 	flex-basis: 90%;
-	height:50%;
+	height:400px;
   margin:10px;
   box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
   -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);

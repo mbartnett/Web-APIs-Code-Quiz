@@ -1,5 +1,9 @@
 Pseudo code for project
 
-** function startButton initiates quiz **
+** function onclick startButton initiates quiz **
 replaces content of page with first question
-and initiates the timer starting at 1:00
+and initiates the timer starting at 1:00 
+
+** function onclick selectAnswer **
+if (answer is true), then load the next question, and generate a "correct!" message
+if (answer is false) then load the next question, remove 10 seconds from the clock, and gererate a "wrong!" message
