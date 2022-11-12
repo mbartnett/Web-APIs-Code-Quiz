@@ -1,8 +1,20 @@
-Pseudo code for project
+** Pseudo code for project **
 
-functions:
-variables:
-pages: start, first question, second question, third, question, fourth question, fifth question, final score page, high score page
+* functions *
+
+function startQuiz ();
+function quizAnswer ();
+function clock ();
+function countScore ();
+function enterScore ();
+function clearScore ();
+
+* variables *
+
+* pages *
+ start, first question, second question, third, question, fourth question, fifth question, final score page, high score page
+
+---
 
 ** function onclick startButton initiates quiz **
 replaces content of page with first question
@@ -18,7 +30,12 @@ starts at 1:00 and counts down until questions.answer = 5
 ** score calculator function **
 score = time left - 10sec for incorrect answers
 
+** clear scores function **
+on click array of scores = " "
+
 ** initials function **
 user submits text string and presses submit, the var initials and var final score are logged to the high scores page
 
 ?? store answer data in browser ??
+?? best method to replace questions ??
+?? how to subtract time from clock
