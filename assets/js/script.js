@@ -1,6 +1,33 @@
-// General functions 
+// General variables
+var question = document.querySelector('#question');
+var options = document.querySelector('#options');
+var timerText = document.querySelector('#timer');
 
 var startButton = document.querySelector(".start-button");
+var startTime = 60;
+var question = 0;
+
+// Function to start the timer
+
+function startTimer() {
+    remainingTimeEl.textContent = timeRemaining;
+    interval = setInterval(function () {
+        timeRemaining--;
+        remainingTimeEl.textContent = timeRemaining;
+
+        if (timeRemaining === 0){
+            clearInterval(interval);
+            cardEl.textContent = "Time is up!"
+        }
+    }, 1000)
+}
+startTimer ()
+
+// Function to stop the timer
+
+function stopTimer(){
+    clearInterval(interval)
+}
 
 // An array of objects containing the number of the quesiton, the quesiton, the possible solutions and the answers.
 
