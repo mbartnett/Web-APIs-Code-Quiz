@@ -103,7 +103,7 @@ function reset() {
 function renderQuestion() {
     questionEl.textContent = questions[currentQ].title;
     for (i = 0; i < answersEl.children.length; i++) {
-        answersEl.children[i].children[0].textContent = `${(i + 1)}: ${questions[currentQ].choices[i]}`;
+        answersEl.children[i].textContent = `${(i + 1)}: ${questions[currentQ].choices[i]}`;
     }
 }
 

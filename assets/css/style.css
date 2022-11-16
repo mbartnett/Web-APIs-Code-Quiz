@@ -47,9 +47,9 @@ a {
 
 /* Hiding elements */
 
-#quiz, #inputScore, #highScores {
-  display: none;
-}
+#quiz, #inputScore, #highScores { 
+  display: none; 
+} 
 
 /* Container styles */
 
