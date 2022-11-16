@@ -12,7 +12,7 @@ var questions = [
         answer: "parenthesis",
     },  
     {
-        title: "Arrays in Javascript can be used to store _______.",
+        title: "Arrays in JavaScript can be used to store _______.",
         choices: ["numbers and strings", "other arrays", "booleans", "all of the above"],
         answer: "all of the above"
     },
@@ -23,7 +23,7 @@ var questions = [
     }, 
     {
         title: "A very useful tool used during development and debugging is:",
-        choices: ["Javascript", "terminal/bash", "for loops", "console log"],
+        choices: ["JavaScript", "terminal/bash", "for loops", "console log"],
         answer: "console log"
     }
 ];
