@@ -12,7 +12,7 @@
         <!-- Score & Timer -->
             <section class="flex-item-0">
             <section class="small">
-                <a class="slate" id="viewHScores" href="score.html">HIGH SCORES</a>
+                <a class="slate" id="viewHScores">HIGH SCORES</a>
             </section>
         </section>
         <section class="flex-item-1">
@@ -50,14 +50,22 @@
 
             <!-- Input Hight Scores -->
             <section class="inputScore" id="inputScore">
-                <h2>All done!</h2>
+                <h1>ALL DONE!</h1>
                 <p>Your final score: <span id="score"></span></p>
                 <p>Enter initials: <input type="text " id="initials"></p>
-                <button type="button" class="submitInitials" id="submitInitials">Submit</button>
+                <section class="submit" id="submit">
+                    <button type="button" class="submitInitials" id="submitInitials">Submit</button>
+                </section>
             </section>
             
             <!-- View High Scores -->
-
+            <section class="highScores" id="highScores">
+                <h1>HIGH SCORES</h1>
+                    <section class="scores" id="scores">
+                    </section>
+                    <button type="button" class="goBack" id="goBack">Go Back</button>
+                    <button type="button" class="clearScores" id="clearScores">Clear Scores</button>
+            </section>
         <!-- End Main Container -->
         </section>                
     </main>

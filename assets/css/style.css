@@ -132,6 +132,7 @@ a {
   flex-direction: column;
 }
 
+
 .answers button {
   font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -161,6 +162,31 @@ a {
 
 .solution hr {
 display:none;
+}
+
+.inputScore, .highScores {
+  width:800px;
+  font-size:32px;
+}
+
+/*.inputScore*/ button {
+  font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 20px auto 0 auto%;
+  padding: 15px 25px;
+  color:black;
+  background-color: salmon;
+  border:none;
+  border-radius: 10px;
+  color:darkslateblue;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
+
+/*.inputScore*/ button:hover {
+  background-color:pink; 
+  text-decoration:underline;
 }
 
 /* Score styles */

@@ -117,7 +117,7 @@ function renderHighScores() {
         let scoreItem = document.createElement("div");
         scoreItem.className += "row mb-3 p-2";
         console.log(scoreItem)
-        scoreItem.setAttribute("style", "background-color:PaleTurquoise;");
+        //scoreItem.setAttribute("style", "background-color:pink;");
         scoreItem.textContent = `${(i + 1)}. ${highScores[i].username} - ${highScores[i].userScore}`;
         scoresEl.appendChild(scoreItem);
     }
