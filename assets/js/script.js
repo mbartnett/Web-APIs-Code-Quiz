@@ -1,12 +1,31 @@
 // Variables
 
 var startButton = document.querySelector("#start-button");
-startButton.addEventListener("click", startTimer);
+var timer = document.querySelector("#timer");
+var timeGiven = 60;
+var secondsElapsed = 0;
+var questions = [];
 
-startTimer () {
-    ;
+var question = document.querySelector("#question");
+var choices = document.querySelector("#choices");
+
+// Starts timer
+
+function startTimer() {
+    timer.textContent = timeGiven;
+    interval = setInterval(function () {
+        secondsElapsed++;
+        timer.textContent = timeGiven - secondsElapsed;
+        if (secondsElapsed >= timeGiven) {
+            currentQ = questions.length;
+            nextQuestion();
+        }
+    }, 1000);
 }
 
-var time
-var questions
-var choices 
+// Stops timer
+function stopTimer() {
+    clearInterval(interval);
+}
+
+startButton.addEventListener("click", startTimer);
