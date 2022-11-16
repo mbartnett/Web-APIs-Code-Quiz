@@ -59,11 +59,11 @@ function nextQuestion() {
 function checkAnswer(answer) {
     if (questions[currentQ].answer == questions[currentQ].choices[answer.id]) {
         score += 5;
-        displayMessage("That's correct!");
+        displayMessage("CORRECT!");
     }
     else {
         secondsElapsed += 10;
-        displayMessage("Nope!");
+        displayMessage("NOPE!");
     }
 }
 

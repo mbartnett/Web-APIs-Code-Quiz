@@ -9,6 +9,8 @@ body {
   font-weight:400;
   background-color: salmon;
   color:black;
+  font-size:24px;
+  line-height:30px;
 }
 
 h1 {
@@ -38,8 +40,8 @@ p.welcome {
   margin:10px 10%;
   width: 50%;
   text-align:center;
-  font-size:18px;
-  line-height:24px;
+  font-size:24px;
+  line-height:30px;
 }
 
 a {
@@ -130,7 +132,6 @@ a {
   font-size: 18px;
   margin-top:20px;
   padding: 15px 25px;
-  color:black;
   background-color: salmon;
   border:none;
   border-radius: 10px;
@@ -150,6 +151,7 @@ a {
   font-weight:700;
   color:white;
   margin-top:30px;
+  font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
 }
 
 .solution hr {
@@ -164,9 +166,8 @@ display:none;
 /*.inputScore*/ button {
   font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
   font-size: 18px;
-  margin: 20px auto 0 auto%;
+  margin: 20px auto 0 auto;
   padding: 15px 25px;
-  color:black;
   background-color: salmon;
   border:none;
   border-radius: 10px;
@@ -191,12 +192,9 @@ display:none;
   justify-content: center;
 }
 
-.scores p {
-  display:inline-block;
-  font-size:16px;
-  line-height:20px;
+.finalScore {
+  font-size:24px;
   margin:5px;
-  padding:5px 10px;
 }
 
 .scoreButtons {
@@ -213,7 +211,6 @@ display:none;
   font-size: 18px;
   margin-top:20px;
   padding: 15px 25px;
-  color:black;
   background-color: salmon;
   border:none;
   border-radius: 10px;
