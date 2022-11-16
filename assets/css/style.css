@@ -105,7 +105,7 @@ a {
   border-radius:20px;
   background-color:lightskyblue;
 	flex-basis: 90%;
-	height:600px;
+	height:500px;
   box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
   -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
@@ -125,7 +125,43 @@ a {
   -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
 }
 
-/* Question styles */
+/* Quiz styles */
+
+.answers {
+  display: flex;
+  flex-direction: column;
+}
+
+.answers button {
+  font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top:20px;
+  padding: 15px 25px;
+  color:black;
+  background-color: salmon;
+  border:none;
+  border-radius: 10px;
+  color:darkslateblue;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
+
+.answers button:hover {
+   background-color:lightpink;
+}
+
+.solution {
+  font-size:24px;
+  font-weight:bold;
+  color:white;
+  margin-top:30px;
+ 
+}
+
+.solution hr {
+display:none;
+}
 
 /* Score styles */
 

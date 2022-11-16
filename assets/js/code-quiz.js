@@ -72,8 +72,8 @@ function displayMessage(m) {
     let messageHr = document.createElement("hr");
     let messageEl = document.createElement("div");
     messageEl.textContent = m;
-    document.querySelector(".container").appendChild(messageHr);
-    document.querySelector(".container").appendChild(messageEl);
+    document.querySelector(".solution").appendChild(messageHr);
+    document.querySelector(".solution").appendChild(messageEl);
     setTimeout(function () {
             messageHr.remove();
             messageEl.remove();
