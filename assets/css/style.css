@@ -148,15 +148,15 @@ a {
 }
 
 .answers button:hover {
-   background-color:lightpink;
+  background-color:pink; 
+  text-decoration:underline;
 }
 
 .solution {
   font-size:24px;
-  font-weight:bold;
+  font-weight:bolder;
   color:white;
   margin-top:30px;
- 
 }
 
 .solution hr {
