@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arimo:wght@700&family=Montserrat:wght@300;400;500;600&family=Raleway:wght@300;400;500&display=swap');
 
+/* Hiding elements */
+
+#quiz, #inputScore, #highScores { 
+  display: none; 
+} 
+
 /* Primary styles */
 
 body {
@@ -29,14 +35,7 @@ h2 {
   text-align:center;
 }
 
-p.welcome {
-  margin:10px;
-  text-align:center;
-  font-size:18px;
-  line-height:24px;
-}
-
-p.welcome {
+.welcome p {
   margin:10px 10%;
   width: 50%;
   text-align:center;
@@ -53,12 +52,6 @@ a {
   color:white;
   text-decoration:underline;
 }
-
-/* Hiding elements */
-
-#quiz, #inputScore, #highScores { 
-  display: none; 
-} 
 
 /* Container styles */
 
@@ -120,6 +113,27 @@ a {
   -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
 }
 
+/* Welcome styles */
+
+.startQuiz {
+  font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top:20px;
+  padding: 15px 25px;
+  background-color: salmon;
+  border:none;
+  border-radius: 10px;
+  color:darkslateblue;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
+
+.start-button:hover {
+  color:white;
+  text-decoration:underline;
+}
+
 /* Quiz styles */
 
 .answers {
@@ -158,30 +172,6 @@ a {
 display:none;
 }
 
-.inputScore, .highScores {
-  width:800px;
-  font-size:24px;
-}
-
-/*.inputScore*/ button {
-  font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  margin: 20px auto 0 auto;
-  padding: 15px 25px;
-  background-color: salmon;
-  border:none;
-  border-radius: 10px;
-  color:darkslateblue;
-  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
-  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
-}
-
-/*.inputScore*/ button:hover {
-  background-color:pink; 
-  text-decoration:underline;
-}
-
 /* Score styles */
 
 .scores {
@@ -197,19 +187,15 @@ display:none;
   margin:5px;
 }
 
-.scoreButtons {
-  display: flex;
+.inputScore, .highScores {
+  width:800px;
+  font-size:24px;
 }
 
-.scoreButtons button {
-  margin:10px;
-}
-/* Button styles */
-
-.startQuiz {
+button {
   font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
   font-size: 18px;
-  margin-top:20px;
+  margin: 20px auto 0 auto;
   padding: 15px 25px;
   background-color: salmon;
   border:none;
@@ -220,7 +206,15 @@ display:none;
   -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
 }
 
-.start-button:hover {
-  color:white;
+button:hover {
+  background-color:pink; 
   text-decoration:underline;
+}
+
+.scoreButtons {
+  display: flex;
+}
+
+.scoreButtons button {
+  margin:10px;
 }
