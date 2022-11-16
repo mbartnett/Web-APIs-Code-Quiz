@@ -88,7 +88,8 @@ function hide(element) {
 
 //displays element
 function show(element) {
-    element.style.display = "block";
+    element.style.display = "flex";
+    element.style.flexDirection = "column";
 }
 
 //reset local variables
@@ -115,7 +116,7 @@ function renderHighScores() {
     highScores = JSON.parse(localStorage.getItem("scores"));
     for (let i = 0; i < highScores.length; i++) {
         let scoreItem = document.createElement("div");
-        scoreItem.className += "row mb-3 p-2";
+        scoreItem.className += "scores";
         console.log(scoreItem)
         //scoreItem.setAttribute("style", "background-color:pink;");
         scoreItem.textContent = `${(i + 1)}. ${highScores[i].username} - ${highScores[i].userScore}`;
