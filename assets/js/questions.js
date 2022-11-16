@@ -1,29 +1,29 @@
-// An array of objects containing the number of the quesiton, the quesiton, the possible solutions and the answers.
+// An array of objects containing the question, the possible solutions, and the answers.
 
 var questions = [
     {
-        title: "Commonly used data types DO NOT include:",
-        choices: ["strings", "booleans", "alerts", "numbers"],
+        question: "Commonly used data types DO NOT include:",
+        options: ["strings", "booleans", "alerts", "numbers"],
         answer: "alerts"
     },
     {
-        title: "The condition in an if / else statement is enclosed with _______.",
-        choices: ["quotes", "curly brackets", "parenthesis", "square brackets"],
+        question: "The condition in an if / else statement is enclosed with _______.",
+        options: ["quotes", "curly brackets", "parenthesis", "square brackets"],
         answer: "parenthesis",
     },  
     {
-        title: "Arrays in JavaScript can be used to store _______.",
-        choices: ["numbers and strings", "other arrays", "booleans", "all of the above"],
+        question: "Arrays in JavaScript can be used to store _______.",
+        options: ["numbers and strings", "other arrays", "booleans", "all of the above"],
         answer: "all of the above"
     },
     {
-        title: "String values must be enclosed within _______ when being assigned to variables.",
-        choices: ["commas", "curly brackets", "quotes", "parenthesis"],
+        question: "String values must be enclosed within _______ when being assigned to variables.",
+        options: ["commas", "curly brackets", "quotes", "parenthesis"],
         answer: "quotes"
     }, 
     {
-        title: "A very useful tool used during development and debugging is:",
-        choices: ["JavaScript", "terminal/bash", "for loops", "console log"],
+        question: "A very useful tool used during development and debugging is:",
+        options: ["JavaScript", "terminal/bash", "for loops", "console log"],
         answer: "console log"
     }
 ];

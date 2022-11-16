@@ -57,7 +57,7 @@ function nextQuestion() {
 
 //checks answer based on current question and updates the user score
 function checkAnswer(answer) {
-    if (questions[currentQ].answer == questions[currentQ].choices[answer.id]) {
+    if (questions[currentQ].answer == questions[currentQ].options[answer.id]) {
         score += 5;
         displayMessage("CORRECT!");
     }
@@ -67,7 +67,7 @@ function checkAnswer(answer) {
     }
 }
 
-//displays a message for 2 seconds
+// Displays a message for 2 seconds
 function displayMessage(m) {
     let messageHr = document.createElement("hr");
     let messageEl = document.createElement("div");
@@ -102,9 +102,9 @@ function reset() {
 
 //Renders current question
 function renderQuestion() {
-    questionEl.textContent = questions[currentQ].title;
+    questionEl.textContent = questions[currentQ].question;
     for (i = 0; i < answersEl.children.length; i++) {
-        answersEl.children[i].textContent = `${(i + 1)}: ${questions[currentQ].choices[i]}`;
+        answersEl.children[i].textContent = `${(i + 1)}: ${questions[currentQ].options[i]}`;
     }
 }
 
