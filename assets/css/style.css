@@ -27,7 +27,7 @@ h2 {
   text-align:center;
 }
 
-p.intro {
+p.welcome {
   margin:10px 10%;
   width: 50%;
   text-align:center;
@@ -44,6 +44,13 @@ a {
   color:white;
   text-decoration:underline;
 }
+
+/* Hiding elements */
+
+#quiz, #inputScore, #highScores {
+  display: none;
+}
+
 /* Container styles */
 
 .small {
@@ -71,7 +78,7 @@ a {
     align-content: center;
 }
 
-.container section .intro {
+.container section .welcome {
   flex-direction:column;
 }
 
@@ -118,6 +125,8 @@ a {
   -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
 }
 
+/* Question styles */
+
 /* Score styles */
 
 .scores {
@@ -138,7 +147,7 @@ a {
 
 /* Button styles */
 
-.start-button {
+.startQuiz {
   font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
   font-size: 18px;
   margin-top:20px;

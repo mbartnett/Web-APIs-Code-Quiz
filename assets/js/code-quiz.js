@@ -1,32 +1,23 @@
-// Welcome Page Elements =====================================
-const welcomeEl = document.querySelector("#welcome");
-const startQuizBtnEl = document.querySelector("#startQuiz");
-
-//Quiz Page Elements =========================================
-const quizEl = document.querySelector("#quiz");
-const questionEl = document.querySelector("#question");
-const answersEl = document.querySelector("#answers");
-
-//Input Score Page Elements ==================================
-const inputScoreEl = document.querySelector("#inputScore");
-const initialsEl = document.querySelector("#initials");
-const submitInitialsBtnEl = document.querySelector("#submitInitials");
-const userScoreEl = document.querySelector("#score");
-
-//View High Scores Page Elements =============================
-const highScoresEl = document.querySelector("#highScores");
-const scoresEl = document.querySelector("#scores");
-const goBackBtnEl = document.querySelector("#goBack");
-const clearScoresBtnEl = document.querySelector("#clearScores");
-
-//Universal vars =============================================
-const viewHScoresBtnEl = document.querySelector("#viewHScores");
-const timerEl = document.querySelector("#timer");
+var welcomeEl = document.querySelector("#welcome");
+var startQuizBtnEl = document.querySelector("#startQuiz");
+var quizEl = document.querySelector("#quiz");
+var questionEl = document.querySelector("#question");
+var answersEl = document.querySelector("#answers");
+var inputScoreEl = document.querySelector("#inputScore");
+var initialsEl = document.querySelector("#initials");
+var submitInitialsBtnEl = document.querySelector("#submitInitials");
+var userScoreEl = document.querySelector("#score");
+var highScoresEl = document.querySelector("#highScores");
+var scoresEl = document.querySelector("#scores");
+var goBackBtnEl = document.querySelector("#goBack");
+var clearScoresBtnEl = document.querySelector("#clearScores");
+var viewHScoresBtnEl = document.querySelector("#viewHScores");
+var timerEl = document.querySelector("#timer");
 var score = 0;
 var currentQ = 0;
 var highScores = [];
 var interval;
-var timeGiven = 75;
+var timeGiven = 60;
 var secondsElapsed = 0;
 
 //starts and updates timer
@@ -108,8 +99,6 @@ function reset() {
     timerEl.textContent = 0;
 }
 
-//=================== Rendering ================================
-
 //Renders current question
 function renderQuestion() {
     questionEl.textContent = questions[currentQ].title;
@@ -133,9 +122,6 @@ function renderHighScores() {
         scoresEl.appendChild(scoreItem);
     }
 }
-
-
-//=========================EVENTS================================
 
 //displays high scores
 viewHScoresBtnEl.addEventListener("click", function () {

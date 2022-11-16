@@ -9,7 +9,8 @@
 </head>
 <body>
     <main class="container">
-        <section class="flex-item-0">
+        <!-- Score & Timer -->
+            <section class="flex-item-0">
             <section class="small">
                 <a class="slate" id="viewHScores" href="score.html">HIGH SCORES</a>
             </section>
@@ -19,44 +20,34 @@
                 TIMER:&nbsp;<span id="timer">0</span>
             </section>
         </section>
+        
+        <!-- Main Container -->
         <section class="flex-item-2">
-                <section class="intro" id="welcome">
+            
+            <!-- Welcome -->
+            <section class="welcome" id="welcome">
                 <h1>CODING QUIZ CHALLENGE</h1>
-                <p class="intro">Try to answer the following questions within the time limit. Keep in mind incorrect answers will penalize your score/time by ten seconds.</p>
-                    <section class="start-button" id="startQuiz">
+                <p class="welcome">Try to answer the following questions within the time limit. Keep in mind incorrect answers will penalize your score/time by ten seconds.</p>
+                    <section class="startQuiz" id="startQuiz">
                         <b>START QUIZ</b>
                     </section>
+            </section>
+            <!-- End Welcome -->
+            
+            <!-- Quiz --> 
+            <section class="quiz" id="quiz">
+                <h2 id="question">THIS IS A QUESTION</h2>
+                <section class="answers" id="answers">
+                    <button type="button" id="0"></button>
+                    <button type="button" id="1"></button>
+                    <button type="button" id="2"></button>
+                    <button type="button" id="3"></button>
                 </section>
-        </section>
-                
-                <!-- quiz
-                <div class="container" id="quiz">
-                    <h1 id="question"></h1>
-                    <div class="container" id="answers">
-                        <div class="row">
-                            <button type="button" id="0"></button>
-                        </div>
-                        <div class="row">
-                            <button type="button" id="1"></button>
-                        </div>
-                        <div class="row">
-                            <button type="button" id="2"></button>
-                        </div>
-                        <div class="row">
-                            <button type="button" id="3"></button>
-                        </div>
-                    </div>
-                </div>
+            </section>
+            <!-- End Quiz -->
 
-                </section>
-
-                
-                <div class="container" id="inputScore">
-                    <h1>All done!</h1>
-                    <p>Your final score: <span id="score"></span></p>
-                    <p>Enter initials: <input type="text " id="initials"></p>
-                    <button type="button" id="submitInitials">Submit</button>
-                </div>-->
+        <!-- End Main Container -->
+        </section>                
     </main>
     <script src="assets/js/questions.js"></script>
     <script src="assets/js/code-quiz.js"></script>
