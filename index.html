@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <!--<link rel="stylesheet" href="./assets/css/reset.css">-->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <main class="container">
         <section class="flex-item-0">
             <section class="small">
-                <a class="slate" href="score.html">HIGH SCORES</a>
+                <a class="slate" id="viewHScores" href="score.html">HIGH SCORES</a>
             </section>
         </section>
         <section class="flex-item-1">
@@ -21,35 +20,45 @@
             </section>
         </section>
         <section class="flex-item-2">
-            <!-- Quiz Intro-->
-            <section class="intro"></section>
-                
+                <section class="intro" id="welcome">
                 <h1>CODING QUIZ CHALLENGE</h1>
                 <p class="intro">Try to answer the following questions within the time limit. Keep in mind incorrect answers will penalize your score/time by ten seconds.</p>
-                <section class="start-button" id="start-button">
-                    <b>START QUIZ</b>
-                </section>
-                
-                <!--<section class="quiz" id="quiz">
-                    <section class="question" id="question">
-                        <p class="question">This is a question, do you know the answer?</p>
-                    </section>
-                    <section class="choices" id="choices">
-                        <p class="choices">This is an answer.</p>
+                    <section class="start-button" id="startQuiz">
+                        <b>START QUIZ</b>
                     </section>
                 </section>
-                <section class="finished">-->
-
-                <!--INSERT END OF QUIZ HERE
-                You're finished!
-                Your final score is var finalScore
-                Enter your name [submission form]-->    
-                </section>
-            </section>
         </section>
+                
+                <!-- quiz
+                <div class="container" id="quiz">
+                    <h1 id="question"></h1>
+                    <div class="container" id="answers">
+                        <div class="row">
+                            <button type="button" id="0"></button>
+                        </div>
+                        <div class="row">
+                            <button type="button" id="1"></button>
+                        </div>
+                        <div class="row">
+                            <button type="button" id="2"></button>
+                        </div>
+                        <div class="row">
+                            <button type="button" id="3"></button>
+                        </div>
+                    </div>
+                </div>
+
+                </section>
+
+                
+                <div class="container" id="inputScore">
+                    <h1>All done!</h1>
+                    <p>Your final score: <span id="score"></span></p>
+                    <p>Enter initials: <input type="text " id="initials"></p>
+                    <button type="button" id="submitInitials">Submit</button>
+                </div>-->
     </main>
-    <script src="./assets/js/script.js"></script>
-    <script src="./assets/js/questions.js"></script>
-    <script src="./assets/js/score.js"></script>
-</body>
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/code-quiz.js"></script>
+    </body>
 </html>
