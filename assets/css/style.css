@@ -22,6 +22,7 @@ body {
 h1 {
 	font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
   font-size:36px;
+  line-height:42px;
   margin:20px;
   color:darkslateblue;
   text-align:center;
@@ -30,6 +31,7 @@ h1 {
 h2 {
 	font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
   font-size:28px;
+  line-height:42px;
   margin:10px;
   color:darkslateblue;
   text-align:center;
@@ -107,7 +109,7 @@ a {
   border-radius:20px;
   background-color:lightskyblue;
 	flex-basis: 90%;
-	height:500px;
+	height:750px;
   box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
   -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
