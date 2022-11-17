@@ -1,10 +1,24 @@
 # Web-APIs-Code-Quiz
-A timed coding quiz with multiple-choice questions built using dynamically-updated HTML, CSS, JavaScript
 
 ## Description
-This quiz will ask you JavaScript-related questions and will assign you a score based on your performance. 
+A timed coding quiz with multiple-choice questions built using dynamically-updated HTML, CSS, JavaScript
 
 ## Credits
-github.com/kqarlos/code-quiz
+https://github.com/kqarlos/code-quiz
 
 ## Screenshots
+
+## Links
+
+[**Week Three Challenge**](https://mbartnett.github.io/Web-APIs-Code-Quiz/)<br>
+[**Week Three Challenge Repo**](https://github.com/mbartnett/Web-APIs-Code-Quiz)
+
+## Screengrabs
+
+![Web APIs Code Quiz screenshot 1](assets/images/.png)
+![Web APIs Code Quiz screenshot 2](assets/images/.png)
+
+
+## License
+
+Please refer to the LICENSE in the repo.
