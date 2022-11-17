@@ -60,6 +60,7 @@ a {
 .small {
   font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
   font-size:18px;
+  line-height:22px;
   margin:10px;
   color:darkslateblue;
   text-align:center;
@@ -109,7 +110,7 @@ a {
   border-radius:20px;
   background-color:lightskyblue;
 	flex-basis: 90%;
-	height:750px;
+	height:90%;
   box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
   -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
@@ -190,7 +191,7 @@ display:none;
 }
 
 .input-score, .high-scores {
-  width:800px;
+  width:95%;
   font-size:24px;
 }
 
