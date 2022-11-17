@@ -3,6 +3,11 @@
 ## Description
 A timed coding quiz with multiple-choice questions built using dynamically-updated HTML, CSS, JavaScript
 
+## Links
+
+[**Week Four Challenge**](https://mbartnett.github.io/Web-APIs-Code-Quiz/)<br>
+[**Week Four Challenge Repo**](https://github.com/mbartnett/Web-APIs-Code-Quiz)
+
 ## Screengrabs
 
 ![Web APIs Code Quiz intro screenshot](assets/images/intro.png)
