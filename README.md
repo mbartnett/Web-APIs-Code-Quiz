@@ -5,8 +5,10 @@ A timed coding quiz with multiple-choice questions built using dynamically-updat
 
 ## Screengrabs
 
-![Web APIs Code Quiz screenshot 1](assets/images/.png)
-![Web APIs Code Quiz screenshot 2](assets/images/.png)
+![Web APIs Code Quiz intro screenshot](assets/images/intro.png)
+![Web APIs Code Quiz question screenshot](assets/images/question.png)
+![Web APIs Code Quiz completed screenshot](assets/images/finished.png)
+![Web APIs Code Quiz high-score screenshot](assets/images/high-scores.png)
 
 ## Credits
 https://github.com/kqarlos/code-quiz
