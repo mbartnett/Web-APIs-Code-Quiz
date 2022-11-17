@@ -4,7 +4,7 @@
 
 /* Hiding elements */
 
-#quiz, #inputScore, #highScores { 
+#quiz, #input-score, #high-scores { 
   display: none; 
 } 
 
@@ -35,7 +35,7 @@ h2 {
   text-align:center;
 }
 
-.welcome p {
+.intro p {
   margin:10px 10%;
   width: 50%;
   text-align:center;
@@ -80,7 +80,7 @@ a {
     align-content: center;
 }
 
-.container section .welcome {
+.container section .intro {
   flex-direction:column;
 }
 
@@ -113,9 +113,9 @@ a {
   -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
 }
 
-/* Welcome styles */
+/* Intro styles */
 
-.startQuiz {
+.start-quiz {
   font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
   font-size: 18px;
   margin-top:20px;
@@ -182,12 +182,12 @@ display:none;
   justify-content: center;
 }
 
-.finalScore {
+.final-score {
   font-size:24px;
   margin:5px;
 }
 
-.inputScore, .highScores {
+.input-score, .high-scores {
   width:800px;
   font-size:24px;
 }
